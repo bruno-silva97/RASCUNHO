@@ -6,6 +6,7 @@
 }
 
 body {
+    background-color: #00293f;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,14 +15,13 @@ header {
     color: white;
 }
 
-#text {
-    margin: auto;
+header > h1 {
     text-align: center;
-    width: 50%;
     display: inline-block;
 }
 
-#Logo {
+#logo {
+    
     display: inline-block;
 }
 
@@ -30,12 +30,22 @@ img {
     height: 5em;
     padding-left: 77%;
     margin: 0px;
-    display: inline-block;
+}
+
+main {
+    max-width: 750px;
+    margin: auto;
+    color: white;
+}
+
+main > h1 {
+    padding: 15px;
 }
 
 td {
+    background-color: white;
+    color: black;
     border: 2px solid black;
-    margin: 5px;
-    padding: 10px;
+    padding: 15px;
 }
 
