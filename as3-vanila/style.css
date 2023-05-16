@@ -6,6 +6,7 @@
 }
 
 body {
+    text-align: center;
     background-color: #00293f;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,15 +14,11 @@ body {
 header {
     background-color: #054d75;
     color: white;
+    padding: 10px;
 }
 
 header > h1 {
     text-align: center;
-    display: inline-block;
-}
-
-#logo {
-    
     display: inline-block;
 }
 
@@ -30,6 +27,16 @@ img {
     height: 5em;
     padding-left: 77%;
     margin: 0px;
+    display: inline-block;
+}
+
+nav > a {
+    background-color: #00293f;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 main {
@@ -39,6 +46,7 @@ main {
 }
 
 main > h1 {
+    text-align: center;
     padding: 15px;
 }
 

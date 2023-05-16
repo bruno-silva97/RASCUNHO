@@ -1,0 +1,3 @@
+function ticket-externo{} {
+    
+}
