@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #054d75;
+    color: white;
+}
+
+#text {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+}
+
+#Logo {
+    display: inline-block;
+}
+
+img {
+    width: 8em;
+    height: 5em;
+    padding-left: 77%;
+    margin: 0px;
+    display: inline-block;
+}
+
+td {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+}
+
